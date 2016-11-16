@@ -1,8 +1,12 @@
+package reseau;
 import java.io.BufferedInputStream;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.net.Socket;
 import java.net.SocketException;
+
+import partie.Joueur;
+import partie.Table;
 
 public class ClientProcessor implements Runnable{
 
